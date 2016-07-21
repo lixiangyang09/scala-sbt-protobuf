@@ -1,0 +1,8 @@
+package custom_options;
+
+message ReferenceTableRecord {
+    optional string ruleSetVersion  = 1;
+    optional string rootSchema      = 2;
+    optional string namespaceInfo   = 3;
+    optional string xmlTable        = 4;
+}
